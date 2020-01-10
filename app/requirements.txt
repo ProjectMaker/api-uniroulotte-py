@@ -1,0 +1,9 @@
+flask
+python-dotenv
+bson
+mongoengine
+flask-jwt-extended
+flask_restplus
+Werkzeug
+mailjet_rest
+flask-cors
