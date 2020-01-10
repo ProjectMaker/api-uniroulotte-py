@@ -1,0 +1,9 @@
+language: python
+
+deploy:
+  provider: script
+  script: bash docker-push.sh latest
+  on:
+    branch:
+      - master
+      - staging
