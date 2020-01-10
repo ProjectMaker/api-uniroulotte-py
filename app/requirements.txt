@@ -7,3 +7,4 @@ flask_restplus
 Werkzeug
 mailjet_rest
 flask-cors
+pytest
