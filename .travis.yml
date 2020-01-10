@@ -1,5 +1,8 @@
 language: python
 
+services:
+  - docker
+
 deploy:
   provider: script
   script: bash docker-push.sh latest
