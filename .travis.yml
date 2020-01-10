@@ -2,6 +2,8 @@ language: python
 
 install:
   - pip install -r app/requirements.txt
+script:
+  - pytest
 
 deploy:
   provider: script
