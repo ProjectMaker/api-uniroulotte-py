@@ -25,7 +25,7 @@ app.config['JWT_COOKIE_SECURE'] = False
 app.config['JWT_COOKIE_CSRF_PROTECT'] = False
 jwt = JWTManager(app)
 
-api = Api(app, version='2.0', title='Simulateur de devis')
+api = Api(app, version='3.0', title='Simulateur de devis')
 
 api.add_namespace(ns_user, path='/api/user')
 api.add_namespace(ns_session, path='/api/session')
