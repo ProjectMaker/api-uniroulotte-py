@@ -6,4 +6,4 @@ class DevisService(object):
     def create(**payload):
         devis = Devis(**payload)
         devis.save()
-        send_message(payload['email'], payload['firstname'], payload['lastname'], 5000)
+        send_message(payload['email'], payload['firstname'], payload['lastname'], payload['price'])
