@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker login repo.treescale.com --username thomas_michelet --password Rudeboy788?788
+cat docker-login-password.txt | docker login repo.treescale.com --username thomas_michelet --password-stdin
 ansible-playbook -i inventories/production deploy.yml
