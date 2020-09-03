@@ -1,5 +1,4 @@
 venv
 .idea
 docker-login-password.txt
-__pycache__
-app/util/__pycache__
+__pycache__/

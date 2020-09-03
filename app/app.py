@@ -12,6 +12,7 @@ from controller.devis_controller import ns as ns_devis
 
 app = Flask(__name__)
 CORS(app,
+     origins=["https://devis.uni-roulotte.fr"],
      supports_credentials=True,
      allow_headers=["Access-Control-Allow-Credentials", "Content-Type"]
      )
