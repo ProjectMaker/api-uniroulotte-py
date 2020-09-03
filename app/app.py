@@ -2,7 +2,7 @@ from flask import Flask
 from flask_cors import CORS
 from flask_restplus import Api
 from mongoengine import connect
-from werkzeug.contrib.fixers import ProxyFix
+from werkzeug.middleware.proxy_fix import ProxyFix
 from flask_jwt_extended import JWTManager
 
 from config import get_config
