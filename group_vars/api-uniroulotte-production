@@ -1,9 +1,9 @@
 container_name: api-uniroulotte-py
-container_image: repo.treescale.com/thomas_michelet/uniroulotte
+container_image: repo.treescale.com/thomas_michelet/api-uniroulotte
 container_image_version: latest
 
 container_environment: {}
 
 container_ports:
-  - 5005:5005
+  - 5000:5000
 
