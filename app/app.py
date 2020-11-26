@@ -33,6 +33,6 @@ api.add_namespace(ns_session, path='/api/session')
 api.add_namespace(ns_devis, path='/api/devis')
 
 if __name__ == "__main__":
-    connect('uniroulotte', host='mongodb://root:Rudeboy788@ds137605.mlab.com:37605/uniroulotte', retryWrites=False)
+    connect('uniroulotte', host='mongodb+srv://root:Rudeboy788@uniroulotte.gfz8i.mongodb.net/uniroulotte', retryWrites=False, w="majority")
     app.run(host='0.0.0.0', debug=True)
 

@@ -8,3 +8,4 @@ Werkzeug==0.16.1
 mailjet_rest
 flask-cors
 pytest
+dnspython
